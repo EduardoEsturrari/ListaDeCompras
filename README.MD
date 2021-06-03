@@ -8,4 +8,4 @@
 <p>Além do conteúdo passado durante o curso, adicionei ao projeto um evento para que o item seja adicionado à lista com o "enter" e não apenas com o botão "adicionar".
 
 <h2>Autor<h2>
-<p>Marcelo Eduardo Esturrari<p>
+<p>Marcelo Eduardo Esturrari</p>
