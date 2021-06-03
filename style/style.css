@@ -5,13 +5,19 @@
           box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background: #1e5799;
   background: linear-gradient(135deg, #1e5799 15%, #2989d8 34%, #207cca 57%, #7db9e8 88%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   font-family: 'Rubik', sans-serif;
-  height: 100vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,6 +36,8 @@ body {
   border-radius: 15px;
   -webkit-box-shadow: 0px 0px 5px black;
           box-shadow: 0px 0px 5px black;
+  position: absolute;
+  top: 160px;
 }
 
 .container h1 {
@@ -113,14 +121,5 @@ body {
 
 .list ul li:hover {
   background-color: #309dcf;
-}
-
-#design {
-  font-size: 0.75rem;
-  position: absolute;
-  bottom: 5px;
-  left: 10px;
-  font-style: italic;
-  color: white;
 }
 /*# sourceMappingURL=style.css.map */
