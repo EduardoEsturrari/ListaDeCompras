@@ -1,0 +1,122 @@
+$AzulEscuro: #2c315d;
+$AzulClaro:  #309dcf;
+$LaranjaEscuro: #e4803e;
+$LaranjaClaro: #f8ac7a;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #1e5799; 
+    background: -moz-linear-gradient(-45deg, #1e5799 15%, #2989d8 34%, #207cca 57%, #7db9e8 88%);
+    background: -webkit-linear-gradient(-45deg, #1e5799 15%,#2989d8 34%,#207cca 57%,#7db9e8 88%); 
+    background: linear-gradient(135deg, #1e5799 15%,#2989d8 34%,#207cca 57%,#7db9e8 88%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    background-color: $AzulEscuro;
+    width: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+
+    h1 {
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: 6px;
+        margin-top: 5px;
+    }
+}
+
+.inputs{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: solid 2px $AzulClaro;
+    padding-bottom: 20px;
+    
+    #button-input{
+        margin-left: 20px;
+        padding: 4px;
+        background-color: #e4803e;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        border: none;
+        border-radius: 15px;
+        padding: 6px;
+        box-shadow: 0px 0px 3px black;
+        cursor: pointer;
+        font-weight: bold;
+
+        &:hover{
+            background-color: $LaranjaClaro;
+        }
+    }
+
+    #text-input{
+        width: 180px;
+    }
+}
+
+.list{
+    padding: 10px;
+    
+    ul{
+        list-style: none;
+
+        li {
+            margin-top: 10px;
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            border-left: solid 3px $AzulClaro;
+            
+
+
+            .xButton{
+                width: 25px;
+                border-radius: 50%;
+                border: none;
+                font-weight: bold;
+                background-color: $LaranjaEscuro;
+                cursor: pointer;
+                box-shadow: 0 0 4px black;
+                color: white;
+
+                &:hover{
+                    background-color: $LaranjaClaro;
+                    color: red;
+                }
+            }
+            
+            &:hover{
+                background-color: $AzulClaro;
+            }
+        }
+    }
+}
+
+#design{
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-style: italic;
+    color: white;
+}
+
+
+
+
